@@ -43,7 +43,7 @@ public class LineProcessingWithFiles {
     * which means spaces between numbers are preserved
     * @param fileIn Scanner object connected to a file
     */
-   public static void displayines(Scanner fileIn) {
+   public static void displayLines(Scanner fileIn) {
       while (fileIn.hasNextLine()) {
          String line = fileIn.nextLine();
          System.out.println(line);
